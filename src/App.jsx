@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Title from './title'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,9 +8,7 @@ function App() {
   return (
     <>
       <div>
-        <a className="emoji" href="https://vitejs.dev" target="_blank">
-          🍆💦🍑
-        </a>
+        <Title />
       </div>
       <h1>Oshan humtha</h1>
       <div className="card">
